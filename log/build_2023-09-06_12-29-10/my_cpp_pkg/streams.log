@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.184s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[1.244s] [100%] Built target cpp_node
+[1.250s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[1.301s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[1.319s] -- Install configuration: ""
+[1.319s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.319s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.319s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.319s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.320s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.320s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.324s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
