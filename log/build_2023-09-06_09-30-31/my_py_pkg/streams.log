@@ -1,0 +1,60 @@
+[0.657s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[0.748s] /home/gaetano/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.748s] !!
+[0.748s] 
+[0.748s]         ********************************************************************************
+[0.748s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.748s]         versions. Please use the underscore name 'script_dir' instead.
+[0.748s] 
+[0.748s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.748s]         or your builds will no longer be supported.
+[0.748s] 
+[0.748s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.748s]         ********************************************************************************
+[0.749s] 
+[0.749s] !!
+[0.749s]   opt = self.warn_dash_deprecation(opt, section)
+[0.815s] running egg_info
+[0.815s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.888s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.889s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.889s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.889s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.889s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.910s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.911s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.911s] running build
+[0.911s] running build_py
+[0.911s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build
+[0.911s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build/lib
+[0.911s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.912s] copying my_py_pkg/__init__.py -> /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.912s] running install
+[0.912s] /home/gaetano/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.912s] !!
+[0.912s] 
+[0.912s]         ********************************************************************************
+[0.912s]         Please avoid running ``setup.py`` directly.
+[0.912s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[0.912s]         other standards-based tools.
+[0.912s] 
+[0.912s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.912s]         ********************************************************************************
+[0.913s] 
+[0.913s] !!
+[0.913s]   self.initialize_options()
+[0.915s] running install_lib
+[0.926s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.926s] copying /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.926s] byte-compiling /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[0.927s] running install_data
+[0.938s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/ament_index
+[0.938s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.938s] creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.938s] copying resource/my_py_pkg -> /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.938s] copying package.xml -> /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.938s] running install_egg_info
+[0.949s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.950s] running install_scripts
+[0.995s] writing list of installed files to '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log'
+[1.013s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed

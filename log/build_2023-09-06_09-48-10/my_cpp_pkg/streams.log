@@ -1,0 +1,6 @@
+[0.015s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.123s] Traceback (most recent call last):
+[0.123s]   File "/home/gaetano/.local/bin/cmake", line 5, in <module>
+[0.123s]     from cmake import cmake
+[0.123s] ModuleNotFoundError: No module named 'cmake'
+[0.150s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
