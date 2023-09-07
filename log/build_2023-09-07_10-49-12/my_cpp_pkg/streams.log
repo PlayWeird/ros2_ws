@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.034s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.035s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.035s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.035s]   the cmake_policy command to set the policy and suppress this warning.
+[0.035s] 
+[0.035s] Call Stack (most recent call first):
+[0.035s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.035s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.035s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.035s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.035s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.035s]   CMakeLists.txt:14 (find_package)
+[0.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.035s] [0m
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.345s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.432s] -- Configuring done (0.4s)
+[0.438s] -- Generating done (0.0s)
+[0.439s] -- Build files have been written to: /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.454s] [ 75%] Built target cpp_node
+[2.047s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[2.142s] [100%] Built target robot_news_station
+[2.148s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[2.198s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[2.214s] -- Install configuration: ""
+[2.214s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.215s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.215s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.215s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.215s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.215s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.216s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.216s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.216s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.220s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
