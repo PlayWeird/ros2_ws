@@ -4,13 +4,13 @@ from rclpy.node import Node
 from example_interfaces.msg import Int64
 
 
-class NumberPublisher(Node):
+class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
 
         self.number = 2
         self.publisher = self.create_publisher(Int64, "number", 10)
-        self.timer = self.create_timer(1, self.publish_news)
+        self.timer = self.create_timer(1, self.publish_number)
         self.get_logger().info("Number Publisher has been started")
 
     def publish_number(self):
@@ -21,7 +21,7 @@ class NumberPublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = NumberPublisher()
+    node = NumberPublisherNode()
     rclpy.spin(node)
     rclpy.shutdown()
 

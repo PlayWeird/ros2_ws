@@ -1,0 +1,22 @@
+[0.399s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.553s] running develop
+[0.659s] running egg_info
+[0.659s] writing my_py_pkg.egg-info/PKG-INFO
+[0.659s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.659s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.659s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.659s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.661s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.661s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.677s] running build_ext
+[0.677s] Creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.678s] Installing add_two_ints_server script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] Installing number_counter script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] Installing number_publisher script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] Installing py_node script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] Installing robot_news_station script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] Installing smartphone script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.678s] 
+[0.678s] Installed /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg
+[0.678s] running install_data
+[0.693s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build --no-deps install_data
