@@ -1,0 +1,156 @@
+[0.012s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.048s] [ 25%] Built target cpp_node
+[0.049s] [ 75%] Built target robot_news_station
+[0.049s] [ 75%] Built target smartphone
+[0.050s] [ 87%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[0.630s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[0.631s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope; did you mean ‘[01m[Kserver_[m[K’?
+[0.631s]     9 |         [01;31m[Kserver[m[K = this->create_service<example_interfaces::srv::AddTwoInts>(
+[0.631s]       |         [01;31m[K^~~~~~[m[K
+[0.631s]       |         [32m[Kserver_[m[K
+[0.637s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.638s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.638s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsServerNode::callbackAddTwoInts(example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.638s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAddTwoIntsServerNode::get_logger(const char [13], example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type&, example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type&, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type&)[m[K’
+[0.638s]    20 |         RCLCPP_INFO(this->get_logger("%d + %d = %d", request->a, request->b, response->sum[01;31m[K)[m[K);
+[0.638s]       |                                                                                           [01;31m[K^[m[K
+[0.638s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.638s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.638s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[0.638s]   139 |   [01;36m[Kget_logger[m[K() const;
+[0.638s]       |   [01;36m[K^~~~~~~~~~[m[K
+[0.638s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[0.638s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.639s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.639s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAddTwoIntsServerNode::get_logger(const char [13], example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type&, example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type&, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type&)[m[K’
+[0.639s]    20 |         RCLCPP_INFO(this->get_logger("%d + %d = %d", request->a, request->b, response->sum[01;31m[K)[m[K);
+[0.639s]       |                                                                                           [01;31m[K^[m[K
+[0.639s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.639s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.639s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[0.640s]   139 |   [01;36m[Kget_logger[m[K() const;
+[0.640s]       |   [01;36m[K^~~~~~~~~~[m[K
+[0.640s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[0.640s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.640s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.640s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.640s]    20 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger("%d + %d = %d", request->a, request->b, response->sum));
+[0.640s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[0.640s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.641s]    20 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger("%d + %d = %d", request->a, request->b, response->sum));
+[0.641s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[0.641s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.641s]    20 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger("%d + %d = %d", request->a, request->b, response->sum));
+[0.641s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[0.641s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.641s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.641s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.641s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAddTwoIntsServerNode::get_logger(const char [13], example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type&, example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type&, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type&)[m[K’
+[0.641s]    20 |         RCLCPP_INFO(this->get_logger("%d + %d = %d", request->a, request->b, response->sum[01;31m[K)[m[K);
+[0.641s]       |                                                                                           [01;31m[K^[m[K
+[0.642s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.642s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.642s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[0.642s]   139 |   [01;36m[Kget_logger[m[K() const;
+[0.642s]       |   [01;36m[K^~~~~~~~~~[m[K
+[0.642s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[0.642s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.643s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.643s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAddTwoIntsServerNode::get_logger(const char [13], example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type&, example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type&, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type&)[m[K’
+[0.643s]    20 |         RCLCPP_INFO(this->get_logger("%d + %d = %d", request->a, request->b, response->sum[01;31m[K)[m[K);
+[0.643s]       |                                                                                           [01;31m[K^[m[K
+[0.643s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.643s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.643s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.643s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.643s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[0.643s]   139 |   [01;36m[Kget_logger[m[K() const;
+[0.643s]       |   [01;36m[K^~~~~~~~~~[m[K
+[0.643s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:139:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[0.643s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.644s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.644s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string()[m[K’
+[0.644s]    20 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger("%d + %d = %d", request->a, request->b, response->sum));
+[0.644s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[0.644s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.644s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.645s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.645s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.645s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[0.645s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[0.645s]   296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+[0.645s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[0.645s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.645s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+[0.645s]   305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+[0.645s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[0.645s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.847s] make[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.847s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+[0.847s] make: *** [Makefile:146: all] Error 2
+[0.851s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20

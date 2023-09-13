@@ -9,5 +9,8 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.formatting.provider": "none",
-    "cmake.sourceDirectory": "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg"
+    "cmake.sourceDirectory": "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg",
+    "files.associations": {
+        "thread": "cpp"
+    }
 }

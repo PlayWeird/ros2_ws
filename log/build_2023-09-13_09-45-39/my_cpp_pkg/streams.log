@@ -1,0 +1,42 @@
+[0.016s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.054s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.057s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.057s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.057s]   the cmake_policy command to set the policy and suppress this warning.
+[0.057s] 
+[0.057s] Call Stack (most recent call first):
+[0.057s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.057s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.057s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.057s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.057s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.057s]   CMakeLists.txt:14 (find_package)
+[0.057s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.057s] [0m
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.219s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.377s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.475s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.586s] -- Configuring done (0.5s)
+[0.589s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[0.589s]   Cannot find source file:
+[0.589s] 
+[0.589s]     src/add_two_ints_client.cpp
+[0.589s] 
+[0.589s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.589s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.589s]   .f95 .f03 .hip .ispc
+[0.590s] 
+[0.590s] [0m
+[0.590s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[0.590s]   No SOURCES given to target: add_two_ints_server
+[0.590s] 
+[0.590s] [0m
+[0.590s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.593s] make: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.598s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20

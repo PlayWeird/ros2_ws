@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.036s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.037s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.037s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.037s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.037s]   the cmake_policy command to set the policy and suppress this warning.
+[0.037s] 
+[0.037s] Call Stack (most recent call first):
+[0.037s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.037s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.037s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.037s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.038s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.038s]   CMakeLists.txt:14 (find_package)
+[0.038s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.038s] [0m
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.400s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.504s] -- Configuring done (0.5s)
+[0.521s] -- Generating done (0.0s)
+[0.523s] -- Build files have been written to: /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[0.535s] [ 12%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[0.538s] [ 37%] Built target cpp_node
+[0.539s] [ 62%] Built target smartphone
+[0.539s] [ 87%] Built target robot_news_station
+[1.190s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[1.190s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope; did you mean ‘[01m[Kserver_[m[K’?
+[1.190s]     9 |         [01;31m[Kserver[m[K = this->create_service<example_interfaces::srv::AddTwoInts>(
+[1.190s]       |         [01;31m[K^~~~~~[m[K
+[1.190s]       |         [32m[Kserver_[m[K
+[1.197s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.197s]                  from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[1.198s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsServerNode::callbackAddTwoInts(example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.198s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+[1.198s]    20 |         RCLCPP_INFO(this->get_logger(), [01;31m[K%[m[K d + % d = % d, request->a, request->b, response->sum);
+[1.198s]       |                                         [01;31m[K^[m[K
+[1.198s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+[1.198s]    20 |         RCLCPP_INFO(this->get_logger(), % [01;31m[Kd[m[K + % d = % d, request->a, request->b, response->sum);
+[1.198s]       |                                           [01;31m[K^[m[K
+[1.198s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+[1.198s]    20 |         RCLCPP_INFO(this->get_logger(), % d + [01;31m[K%[m[K d = % d, request->a, request->b, response->sum);
+[1.198s]       |                                               [01;31m[K^[m[K
+[1.198s] [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+[1.198s]    20 |         RCLCPP_INFO(this->get_logger(), % d + % d = [01;31m[K%[m[K d, request->a, request->b, response->sum);
+[1.198s]       |                                                     [01;31m[K^[m[K
+[1.428s] make[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+[1.429s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+[1.429s] make: *** [Makefile:146: all] Error 2
+[1.432s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20

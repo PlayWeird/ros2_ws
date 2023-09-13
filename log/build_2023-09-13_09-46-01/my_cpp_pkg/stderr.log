@@ -1,0 +1,46 @@
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope; did you mean ‘[01m[Kserver_[m[K’?
+    9 |         [01;31m[Kserver[m[K = this->create_service<example_interfaces::srv::AddTwoInts>(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kserver_[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsServerNode::callbackAddTwoInts(example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+   20 |         RCLCPP_INFO(this->get_logger(), [01;31m[K%[m[K d + % d = % d, request->a, request->b, response->sum);
+      |                                         [01;31m[K^[m[K
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+   20 |         RCLCPP_INFO(this->get_logger(), % [01;31m[Kd[m[K + % d = % d, request->a, request->b, response->sum);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+   20 |         RCLCPP_INFO(this->get_logger(), % d + [01;31m[K%[m[K d = % d, request->a, request->b, response->sum);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:20:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+   20 |         RCLCPP_INFO(this->get_logger(), % d + % d = [01;31m[K%[m[K d, request->a, request->b, response->sum);
+      |                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
