@@ -360,6 +360,9 @@ my_cpp_pkg_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 my_cpp_pkg_SOURCE_DIR:STATIC=/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg
 
+//The directory containing a CMake configuration file for my_robot_interfaces.
+my_robot_interfaces_DIR:PATH=my_robot_interfaces_DIR-NOTFOUND
+
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
