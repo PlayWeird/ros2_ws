@@ -1,0 +1,8 @@
+[0.009s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake /home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces
+[0.027s] [31mCMake Error at CMakeLists.txt:18:
+[0.027s]   Parse error.  Expected a command name, got quoted argument with text
+[0.027s]   "msg/HardwareStatus.msg".
+[0.027s] 
+[0.027s] [0m
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.031s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake /home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces

@@ -1,0 +1,25 @@
+[0.428s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.566s] running develop
+[0.648s] running egg_info
+[0.648s] writing my_py_pkg.egg-info/PKG-INFO
+[0.648s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.648s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.648s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.648s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.650s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.651s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.670s] running build_ext
+[0.670s] Creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.671s] Installing add_two_ints_client script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing add_two_ints_client_no_oop script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing add_two_ints_server script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing hardware_status_publisher script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing number_counter script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing number_publisher script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing py_node script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing robot_news_station script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] Installing smartphone script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.671s] 
+[0.671s] Installed /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg
+[0.671s] running install_data
+[0.686s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build --no-deps install_data
