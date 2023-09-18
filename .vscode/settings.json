@@ -1,16 +1,16 @@
 {
     "python.autoComplete.extraPaths": [
-        "/opt/ros/foxy/lib/python3.8/site-packages"
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages",
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "",
+        "/home/gaetano/SuperGluePretrainedNetwork"
     ],
     "python.analysis.extraPaths": [
-        "/opt/ros/foxy/lib/python3.8/site-packages"
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
-    "python.formatting.provider": "none",
-    "cmake.sourceDirectory": "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg",
-    "files.associations": {
-        "thread": "cpp"
-    }
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages",
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "",
+        "/home/gaetano/SuperGluePretrainedNetwork"
+    ]
 }

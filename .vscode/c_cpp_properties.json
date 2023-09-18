@@ -1,21 +1,22 @@
 {
-    "configurations": [
-        {
-            "browse": {
-                "databaseFilename": "${default}",
-                "limitSymbolsToIncludedHeaders": false
-            },
-            "includePath": [
-                "/opt/ros/foxy/include/**",
-                "/usr/include/**",
-                "~/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/**"
-            ],
-            "name": "ROS",
-            "intelliSenseMode": "linux-gcc-x86",
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "gnu++20"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
 }
