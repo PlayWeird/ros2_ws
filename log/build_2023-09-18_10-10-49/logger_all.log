@@ -1,0 +1,288 @@
+[0.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.207s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5875729b80>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5875729b80>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5875737130>)
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gaetano/Documents/Udemy_Ros/ros2_ws'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_boiler_plate_nodes) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/gaetano/Documents/Udemy_Ros/ros2_ws/install
+[0.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /opt/ros/noetic
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.290s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.291s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.292s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_cpp_pkg'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces
+[0.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_cpp_pkg
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg' for CMake module files
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/bin'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/python3.8/site-packages'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/bin'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces' for CMake module files
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib'
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/bin'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[0.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[0.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg' for CMake module files
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg' for CMake config files
+[0.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/lib/python3.8/site-packages'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/bin'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[0.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces' for CMake module files
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces' for CMake config files
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/bin'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/bin'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[0.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[0.561s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.773s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build
+[1.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg' for CMake module files
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg' for CMake config files
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/bin'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages'
+[1.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[1.577s] Level 1:colcon.colcon_core.environment:checking '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/bin'
+[1.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[1.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[1.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.579s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.585s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.596s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/local_setup.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/_local_setup_util_ps1.py'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/setup.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/local_setup.sh'
+[1.600s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/_local_setup_util_sh.py'
+[1.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/setup.sh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/local_setup.bash'
+[1.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/setup.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/local_setup.zsh'
+[1.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/setup.zsh'
