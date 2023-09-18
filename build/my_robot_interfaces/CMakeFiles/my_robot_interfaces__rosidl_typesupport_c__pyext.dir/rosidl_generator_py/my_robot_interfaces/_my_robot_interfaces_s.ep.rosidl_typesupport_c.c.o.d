@@ -179,4 +179,7 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator
  /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
  /opt/ros/foxy/include/rosidl_runtime_c/string.h \
  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
- /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h
+ /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
+ /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+ /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
+ /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h

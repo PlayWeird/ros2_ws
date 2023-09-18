@@ -6,6 +6,9 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h \
   rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
   /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h \
   /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
@@ -275,8 +278,6 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -365,7 +366,9 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
 
 /usr/include/string.h:
 
-/usr/include/python3.8/cpython/pymem.h:
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/stdint.h:
 
 /usr/include/stdc-predef.h:
 
@@ -395,10 +398,6 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 
 /usr/include/python3.8/bytesobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/python3.8/cpython/pystate.h:
-
 /usr/include/python3.8/bytearrayobject.h:
 
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
@@ -415,43 +414,9 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
 /usr/include/python3.8/pyerrors.h:
 
-/usr/include/python3.8/cpython/initconfig.h:
+/usr/include/stdlib.h:
 
-/usr/include/linux/errno.h:
-
-/usr/include/python3.8/pydebug.h:
-
-/usr/include/python3.8/tupleobject.h:
-
-/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h:
-
-/usr/include/math.h:
-
-/usr/include/python3.8/pyfpe.h:
-
-/usr/include/python3.8/boolobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
-
-/usr/include/python3.8/cpython/object.h:
-
-/usr/include/python3.8/cpython/tupleobject.h:
-
-/usr/include/python3.8/bltinmodule.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/python3.8/import.h:
+/usr/include/python3.8/pyhash.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -465,17 +430,19 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
 /usr/include/ctype.h:
 
+/usr/include/python3.8/bltinmodule.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/python3.8/import.h:
+
 /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/python3.8/cpython/pylifecycle.h:
-
-/usr/include/python3.8/Python.h:
-
-/usr/include/python3.8/genobject.h:
-
-/usr/include/python3.8/pyhash.h:
-
-/usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -489,6 +456,16 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
 /usr/include/python3.8/pymacconfig.h:
 
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/python3.8/pythonrun.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
+
 /usr/include/linux/stddef.h:
 
 /usr/include/python3.8/cpython/fileobject.h:
@@ -498,6 +475,14 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 /usr/include/crypt.h:
 
 /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h:
+
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h:
+
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h:
+
+/usr/include/math.h:
+
+/usr/include/python3.8/pyfpe.h:
 
 /usr/include/strings.h:
 
@@ -515,11 +500,57 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/python3.8/picklebufobject.h:
 
+/usr/include/python3.8/cpython/pymem.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/python3.8/listobject.h:
+
+/usr/include/python3.8/abstract.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/python3.8/cpython/object.h:
+
+/usr/include/python3.8/cpython/tupleobject.h:
+
+/usr/include/python3.8/boolobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/python3.8/cpython/initconfig.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/python3.8/pydebug.h:
+
+/usr/include/python3.8/tupleobject.h:
+
+/usr/include/python3.8/Python.h:
+
+/usr/include/python3.8/genobject.h:
+
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h:
 
 /usr/include/python3.8/memoryobject.h:
 
 /usr/include/inttypes.h:
+
+/usr/include/limits.h:
+
+/usr/include/python3.8/cpython/sysmodule.h:
+
+/usr/include/python3.8/methodobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
 
 /usr/include/python3.8/complexobject.h:
 
@@ -533,25 +564,11 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.
 
 /usr/include/python3.8/pymacro.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/limits.h:
-
-/usr/include/python3.8/cpython/sysmodule.h:
-
-/usr/include/python3.8/methodobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/python3.8/listobject.h:
-
-/usr/include/python3.8/abstract.h:
-
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/python3.8/cpython/pystate.h:
 
 /usr/include/python3.8/cpython/traceback.h:
 
@@ -572,10 +589,6 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.
 /usr/include/python3.8/dictobject.h:
 
 /usr/include/python3.8/patchlevel.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/stdint.h:
 
 /usr/include/python3.8/namespaceobject.h:
 
@@ -611,6 +624,12 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 
 /usr/include/python3.8/modsupport.h:
 
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/python3.8/pymem.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
@@ -644,10 +663,6 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 /usr/include/python3.8/pystrcmp.h:
 
 /usr/include/python3.8/pystrtod.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/python3.8/pythonrun.h:
 
 /usr/include/python3.8/pythread.h:
 
@@ -692,9 +707,3 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/sched.h:
-
-/usr/include/features.h:
-
-/usr/include/python3.8/pymem.h:
-
-/usr/include/stdio.h:

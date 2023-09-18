@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp" "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   )
 
 
