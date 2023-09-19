@@ -12,5 +12,9 @@
         "/opt/ros/foxy/lib/python3.8/site-packages",
         "",
         "/home/gaetano/SuperGluePretrainedNetwork"
-    ]
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }

@@ -5,10 +5,16 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__functions.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__struct.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__type_support.h \
   rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.h \
   /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h \
   /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
@@ -310,10 +316,6 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -372,11 +374,19 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
 
 /usr/include/stdc-predef.h:
 
-/usr/include/python3.8/cpython/objimpl.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/python3.8/pyctype.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/python3.8/cpython/dictobject.h:
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/python3.8/pyconfig.h:
+
+/usr/include/python3.8/warnings.h:
+
+/usr/include/python3.8/typeslots.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__functions.h:
 
 /usr/include/python3.8/codecs.h:
 
@@ -418,57 +428,27 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
 /usr/include/python3.8/pyhash.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/python3.8/memoryobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/inttypes.h:
 
-/usr/include/python3.8/cellobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/linux/stat.h:
-
-/usr/include/ctype.h:
-
-/usr/include/python3.8/bltinmodule.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/python3.8/import.h:
-
-/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h:
-
-/usr/include/python3.8/cpython/pylifecycle.h:
+rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/endian.h:
 
-/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/linux/limits.h:
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__struct.h:
 
-/usr/include/python3.8/pymacconfig.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/python3.8/pythonrun.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/python3.8/cpython/fileobject.h:
+/usr/include/python3.8/cellobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -476,13 +456,11 @@ rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct
 
 /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h:
 
-/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h:
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
 
-/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/math.h:
-
-/usr/include/python3.8/pyfpe.h:
+/usr/include/python3.8/pythonrun.h:
 
 /usr/include/strings.h:
 
@@ -500,21 +478,45 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/python3.8/picklebufobject.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.h:
+
+/usr/include/python3.8/modsupport.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/python3.8/pymem.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__struct.h:
+
+/usr/include/python3.8/complexobject.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
+
 /usr/include/python3.8/cpython/pymem.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/python3.8/listobject.h:
-
-/usr/include/python3.8/abstract.h:
 
 /usr/include/asm-generic/posix_types.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+/usr/include/python3.8/bltinmodule.h:
 
-/usr/include/python3.8/cpython/object.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/include/python3.8/cpython/tupleobject.h:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/python3.8/import.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/ctype.h:
+
+/usr/include/linux/stat.h:
 
 /usr/include/python3.8/boolobject.h:
 
@@ -522,23 +524,43 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h:
 
-/usr/include/python3.8/cpython/initconfig.h:
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h:
 
-/usr/include/linux/errno.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/python3.8/pydebug.h:
+/usr/include/linux/limits.h:
 
-/usr/include/python3.8/tupleobject.h:
+/usr/include/python3.8/pymacconfig.h:
+
+/usr/include/errno.h:
+
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h:
+
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h:
+
+/usr/include/math.h:
+
+/usr/include/python3.8/pyfpe.h:
+
+/usr/include/python3.8/weakrefobject.h:
+
+/opt/ros/foxy/include/rosidl_runtime_c/string.h:
+
+/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/python3.8/cpython/pylifecycle.h:
 
 /usr/include/python3.8/Python.h:
 
 /usr/include/python3.8/genobject.h:
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h:
+/usr/include/x86_64-linux-gnu/bits/statx.h:
 
-/usr/include/python3.8/memoryobject.h:
+/usr/include/python3.8/unicodeobject.h:
 
-/usr/include/inttypes.h:
+/usr/include/python3.8/pymath.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__type_support.h:
 
 /usr/include/limits.h:
 
@@ -550,13 +572,11 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.
 
 /usr/include/asm-generic/errno-base.h:
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
-
-/usr/include/python3.8/complexobject.h:
-
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/python3.8/classobject.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.h:
 
 /usr/include/python3.8/funcobject.h:
 
@@ -564,7 +584,35 @@ rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functi
 
 /usr/include/python3.8/pymacro.h:
 
-/usr/include/errno.h:
+/usr/include/python3.8/cpython/dictobject.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/python3.8/cpython/fileobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/python3.8/abstract.h:
+
+/usr/include/python3.8/listobject.h:
+
+/usr/include/python3.8/cpython/initconfig.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/python3.8/pydebug.h:
+
+/usr/include/python3.8/tupleobject.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/python3.8/cpython/object.h:
+
+/usr/include/python3.8/cpython/tupleobject.h:
+
+/usr/include/python3.8/cpython/objimpl.h:
+
+/usr/include/python3.8/pyctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -577,10 +625,6 @@ rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functi
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/python3.8/cpython/unicodeobject.h:
-
-/opt/ros/foxy/include/rosidl_runtime_c/string.h:
-
-/usr/include/python3.8/weakrefobject.h:
 
 /usr/include/python3.8/descrobject.h:
 
@@ -621,14 +665,6 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 /usr/include/python3.8/pystate.h:
 
 /usr/include/python3.8/longobject.h:
-
-/usr/include/python3.8/modsupport.h:
-
-/usr/include/stdio.h:
-
-/usr/include/features.h:
-
-/usr/include/python3.8/pymem.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -672,10 +708,6 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 
 /usr/include/python3.8/rangeobject.h:
 
-/usr/include/x86_64-linux-gnu/python3.8/pyconfig.h:
-
-/usr/include/python3.8/warnings.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
 /usr/include/python3.8/setobject.h:
@@ -693,17 +725,3 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 /usr/include/alloca.h:
 
 /usr/include/python3.8/traceback.h:
-
-/usr/include/python3.8/typeslots.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx.h:
-
-/usr/include/python3.8/pymath.h:
-
-/usr/include/python3.8/unicodeobject.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/sched.h:

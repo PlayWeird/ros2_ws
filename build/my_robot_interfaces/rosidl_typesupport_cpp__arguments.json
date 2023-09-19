@@ -4,7 +4,9 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
-    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedState.idl",
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -14,6 +16,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
-    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl"
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedState.idl",
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl"
   ]
 }
