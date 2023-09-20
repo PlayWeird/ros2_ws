@@ -1,0 +1,58 @@
+[0.014s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake /home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.113s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.227s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.227s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.227s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.228s]   the cmake_policy command to set the policy and suppress this warning.
+[0.228s] 
+[0.228s] Call Stack (most recent call first):
+[0.228s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.228s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.228s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.228s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.228s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.228s]   CMakeLists.txt:19 (find_package)
+[0.228s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.228s] [0m
+[0.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.245s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.382s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.434s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.435s] -- Added test 'lint_cmake' to check CMake code style
+[0.435s] -- Added test 'xmllint' to check XML markup files
+[0.436s] -- Configuring done (0.4s)
+[0.438s] -- Generating done (0.0s)
+[0.438s] -- Build files have been written to: /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup
+[0.446s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake /home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup
+[0.446s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup -- -j20 -l20
+[0.474s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup -- -j20 -l20
+[0.523s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup
+[0.544s] -- Install configuration: ""
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.544s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.545s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.545s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.545s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.545s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.548s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg:/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_bringup

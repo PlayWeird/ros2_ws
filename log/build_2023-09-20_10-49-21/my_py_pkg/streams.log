@@ -1,0 +1,34 @@
+[0.447s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build
+[0.611s] running develop
+[0.708s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build
+[0.710s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.842s] running egg_info
+[0.842s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.842s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.842s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.842s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.842s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.844s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.845s] running install
+[0.846s] running install_lib
+[0.847s] running install_data
+[0.847s] running install_egg_info
+[0.848s] removing '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.848s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.848s] running install_scripts
+[0.858s] Installing add_two_ints_client script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing add_two_ints_client_no_oop script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing add_two_ints_server script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing battery script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing hardware_status_publisher script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing led_panel script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing number_counter script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing number_publisher script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing py_node script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.858s] Installing robot_news_station script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.859s] Installing smartphone script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.859s] writing list of installed files to '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log'
+[0.871s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/build install --record /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
