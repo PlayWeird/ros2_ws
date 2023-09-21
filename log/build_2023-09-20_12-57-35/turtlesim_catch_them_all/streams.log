@@ -1,0 +1,18 @@
+[0.362s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[0.497s] running develop
+[0.577s] running egg_info
+[0.577s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.577s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.577s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.577s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[0.578s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[0.580s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.580s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.600s] running build_ext
+[0.600s] Creating /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[0.600s] Installing turtle_controller script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.600s] Installing turtle_spawner script to /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.600s] 
+[0.600s] Installed /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all
+[0.600s] running install_data
+[0.615s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/gaetano/SuperGluePretrainedNetwork:/home/gaetano/SuperGluePretrainedNetwork /usr/bin/python3 setup.py develop --editable --build-directory /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
