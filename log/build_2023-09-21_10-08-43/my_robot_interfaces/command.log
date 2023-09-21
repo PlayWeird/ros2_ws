@@ -1,0 +1,2 @@
+Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20

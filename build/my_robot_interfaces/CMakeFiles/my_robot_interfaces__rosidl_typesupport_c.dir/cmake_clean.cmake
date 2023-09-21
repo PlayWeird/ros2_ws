@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_state__type_support.cpp.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_state__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o"
@@ -11,6 +13,7 @@ file(REMOVE_RECURSE
   "libmy_robot_interfaces__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp"
   "rosidl_typesupport_c/my_robot_interfaces/msg/led_state__type_support.cpp"
+  "rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp"
   "rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp"
   "rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp"
 )

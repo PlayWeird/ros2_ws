@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces:msg/LedState.msg",
+    "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
     "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
   ]
