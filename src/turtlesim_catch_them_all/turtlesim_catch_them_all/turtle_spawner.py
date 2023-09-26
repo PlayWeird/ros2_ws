@@ -13,10 +13,8 @@ class TurtleSpawnerNode(Node):
         super().__init__("turtle_spawner")
         # Create an dictionary to store the names and location of turtles
         self.turtles = []
-
         # Create a timer that calls the spawn_turtle function every 2 seconds
         self.create_timer(5.0, self.spawn_turtle)
-
         # Create a ROS2 publisher that publishes the names and locations of turtles
         self.alive_turtles_publisher_ = self.create_publisher(
             TurtleArray, "alive_turtles", 10)
