@@ -4,8 +4,10 @@ import rclpy
 import random
 from rclpy.node import Node
 from turtlesim.srv import Spawn
+from turtlesim.srv import Kill
 from functools import partial
 from my_robot_interfaces.msg import TurtleArray
+from my_robot_interfaces.srv import CatchTurtle
 
 
 class TurtleSpawnerNode(Node):
@@ -14,10 +16,52 @@ class TurtleSpawnerNode(Node):
         # Create an dictionary to store the names and location of turtles
         self.turtles = []
         # Create a timer that calls the spawn_turtle function every 2 seconds
-        self.create_timer(5.0, self.spawn_turtle)
+        self.create_timer(1.0, self.spawn_turtle)
         # Create a ROS2 publisher that publishes the names and locations of turtles
         self.alive_turtles_publisher_ = self.create_publisher(
             TurtleArray, "alive_turtles", 10)
+        # Create a service to catch a caught turtle
+        self.catch_turtle_service_ = self.create_service(
+            CatchTurtle, "catch_turtle", self.callback_catch_turtle)
+
+    def callback_catch_turtle(self, catch_request, response):
+        # Find the caught turtle in the list of turtles
+        for turtle in self.turtles:
+            # If the name of the turtle matches the name of the caught turtle, remove it from the list
+            if turtle.split()[0] == catch_request.turtle_name:
+                print(len(self.turtles))
+                self.turtles.remove(turtle)
+                print(len(self.turtles))
+                response.success = True
+                # Create a Try Catch to call a service to delete the turtle
+                try:
+                    # Create a client to the ROS2 turtlesim kill service
+                    client = self.create_client(Kill, "kill")
+                    # Wait for the service to be available
+                    while not client.wait_for_service(1.0):
+                        self.get_logger().warn("Waiting for Server Kill...")
+                    # Create the request message
+                    kill_request = Kill.Request()
+                    # Set the name of the turtle to kill
+                    kill_request.name = catch_request.turtle_name
+                    # Send the request message to the service
+                    future = client.call_async(kill_request)
+                    # Add a callback function that will be called when the service is done
+                    future.add_done_callback(
+                        partial(self.callback_kill_turtle, name=catch_request.turtle_name))
+                except Exception as e:
+                    self.get_logger().error(f"Service call failed {e}")
+                # Publish the updated list of turtles
+                msg = TurtleArray()
+                msg.alive_turtles = self.turtles
+                self.alive_turtles_publisher_.publish(msg)
+                return response
+        # If the turtle was not found return a response with success set to false
+        response.success = False
+        return response
+
+    def callback_kill_turtle(self, future, name):
+        self.get_logger().info(f"Killed a turtle named {name}")
 
     def spawn_turtle(self):
         # Create a client to the ROS2 turtlesim spawn turtle service

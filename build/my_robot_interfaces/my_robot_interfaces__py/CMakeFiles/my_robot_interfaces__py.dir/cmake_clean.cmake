@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array.py"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_catch_turtle.py"
+  "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_catch_turtle_s.c"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c"
   "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_set_led.py"

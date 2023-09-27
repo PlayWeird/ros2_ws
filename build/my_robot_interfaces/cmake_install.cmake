@@ -380,6 +380,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg")
 endif()
 
@@ -413,6 +417,18 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/SetLed_Response.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Request.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

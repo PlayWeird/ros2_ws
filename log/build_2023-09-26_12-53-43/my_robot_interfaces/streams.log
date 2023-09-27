@@ -1,0 +1,397 @@
+[0.010s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[0.039s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.041s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.041s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.042s]   the cmake_policy command to set the policy and suppress this warning.
+[0.042s] 
+[0.042s] Call Stack (most recent call first):
+[0.042s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.042s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.042s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.042s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.042s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.042s]   CMakeLists.txt:14 (find_package)
+[0.042s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.042s] [0m
+[0.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.166s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.278s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.278s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.278s]   the cmake_policy command to set the policy and suppress this warning.
+[0.278s] 
+[0.279s] Call Stack (most recent call first):
+[0.279s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.279s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.279s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.279s] [0m
+[0.293s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.374s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.441s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[0.441s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.441s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.441s]   the cmake_policy command to set the policy and suppress this warning.
+[0.441s] 
+[0.441s] Call Stack (most recent call first):
+[0.441s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.441s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.441s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.441s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.441s] [0m
+[0.455s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.456s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.456s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.456s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.456s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.456s]   the cmake_policy command to set the policy and suppress this warning.
+[0.456s] 
+[0.456s] Call Stack (most recent call first):
+[0.456s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.456s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.456s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.457s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.457s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.457s] [0m
+[0.470s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.470s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.470s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.470s]   the cmake_policy command to set the policy and suppress this warning.
+[0.470s] 
+[0.470s] Call Stack (most recent call first):
+[0.470s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.470s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.471s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.471s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.471s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.471s] [0m
+[0.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.472s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.472s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.486s] -- Configuring done (0.5s)
+[0.510s] -- Generating done (0.0s)
+[0.511s] -- Build files have been written to: /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces
+[0.520s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.522s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.768s] [  2%] Built target my_robot_interfaces__cpp
+[0.771s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.771s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.771s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.782s] [  8%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[0.782s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state__functions.c.o[0m
+[0.783s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o[0m
+[0.783s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[0.783s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o[0m
+[0.783s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/catch_turtle__functions.c.o[0m
+[0.831s] [ 16%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[0.849s] [ 16%] Built target my_robot_interfaces__rosidl_generator_c
+[0.852s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.852s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.967s] [ 21%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[0.968s] [ 22%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[0.968s] [ 23%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state__type_support.cpp.o[0m
+[0.968s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[0.968s] [ 26%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[0.969s] [ 28%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o[0m
+[1.005s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[1.006s] [ 30%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[1.006s] [ 32%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state__type_support.cpp.o[0m
+[1.007s] [ 33%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[1.007s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o[0m
+[1.007s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/catch_turtle__type_support.cpp.o[0m
+[1.056s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[1.057s] [ 39%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[1.057s] [ 40%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state__type_support.cpp.o[0m
+[1.057s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[1.058s] [ 43%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o[0m
+[1.059s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o[0m
+[1.078s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[1.111s] [ 47%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_state__type_support.cpp.o[0m
+[1.139s] [ 49%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[1.181s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[1.211s] [ 52%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o[0m
+[1.243s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[1.255s] [ 54%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[1.277s] [ 56%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_state__type_support.c.o[0m
+[1.286s] [ 57%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[1.288s] [ 59%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[1.290s] [ 60%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[1.291s] [ 61%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o[0m
+[1.327s] [ 63%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/catch_turtle__type_support.c.o[0m
+[1.328s] [ 63%] Built target my_robot_interfaces__rosidl_typesupport_c
+[1.361s] [ 64%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.368s] [ 66%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[1.379s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[1.388s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[1.389s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.431s] [ 67%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.500s] [ 69%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.541s] [ 69%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.544s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.774s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[1.774s] [ 73%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_state__type_support_c.cpp.o[0m
+[1.774s] [ 74%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[1.775s] [ 76%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o[0m
+[1.775s] [ 77%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[1.775s] [ 78%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/catch_turtle__type_support_c.cpp.o[0m
+[2.024s] [ 80%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.064s] [ 80%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.070s] [ 80%] Built target my_robot_interfaces
+[2.075s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.579s] [ 81%] Built target my_robot_interfaces__py
+[2.589s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[2.589s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_state_s.c.o[0m
+[2.589s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c.o[0m
+[2.589s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o[0m
+[2.590s] [ 88%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o[0m
+[2.590s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_catch_turtle_s.c.o[0m
+[2.666s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__python.so[0m
+[2.683s] [ 91%] Built target my_robot_interfaces__python
+[2.691s] [ 94%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.691s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.691s] [ 95%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.753s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.753s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.753s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.767s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[2.767s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.783s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.789s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --build /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[2.882s] Invoking command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces
+[2.900s] -- Install configuration: ""
+[2.900s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[2.900s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.900s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.900s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.900s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[2.900s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__type_support.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__type_support.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state.h
+[2.901s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle_array.h
+[2.901s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.901s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__type_support.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__functions.c
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h
+[2.901s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/catch_turtle.h
+[2.901s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[2.902s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.902s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.902s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.902s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/dds_fastrtps
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/dds_fastrtps
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.903s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__type_support.c
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__rosidl_typesupport_introspection_c.h
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__type_support.c
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[2.903s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.903s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__type_support.c
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.c
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[2.904s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[2.904s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[2.904s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.904s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.904s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__traits.hpp
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[2.904s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__builder.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__type_support.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle_array.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp
+[2.905s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.905s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.905s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+[2.905s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/catch_turtle.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[2.906s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[2.906s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[2.906s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state__type_support.cpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[2.906s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/catch_turtle__type_support.cpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[2.906s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.cpp
+[2.907s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.907s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.907s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[2.907s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.907s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[2.907s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[2.907s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py
+[2.928s] Compiling '/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...
+[2.930s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg
+[2.930s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py
+[2.930s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle_array.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle_array_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state.py
+[2.931s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_catch_turtle_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_catch_turtle.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led_s.c
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.931s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.931s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.932s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.932s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.932s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.932s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so
+[2.932s] -- Set runtime path of "/home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so" to ""
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedState.idl
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+[2.932s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.idl
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedState.msg
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg
+[2.932s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.srv
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle_Request.msg
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle_Response.msg
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[2.933s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+[2.933s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.934s] -- Installing: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[2.934s] -- Up-to-date: /home/gaetano/Documents/Udemy_Ros/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[2.938s] Invoked command in '/home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/gaetano/.local/bin/cmake --install /home/gaetano/Documents/Udemy_Ros/ros2_ws/build/my_robot_interfaces
